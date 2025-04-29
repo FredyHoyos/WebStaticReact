@@ -18,24 +18,25 @@ const MidiumTitle = () => {
     )
 }
 
-const SubTitle = () => {
+const SubTitle = ({title}:{title: string }) => {
     return (
-      <h3 className='text-center lg:text-left text-xl lg:text-[24px] font-light text-secondary'>
-        Simple Budgeting</h3>
+      <h3 className='text-start lg:text-left text-xl lg:text-[16px] font-light text-secondary'>
+        {title}</h3>
     )
 }
 
-const TextTitle = () => {
+const TextTitle = ({text}:{text: string }) => {
     return (
       <h3 className='text-center lg:text-left text-lg font-light text-secondary'>
-        Receive money in any currency with no fees</h3>
+        {text}</h3>
     )
 }
 const SubText = ({text}:{text: string }) => {
     return (
-      <h3 className='text-base text-gris font-light text-center lg:text-left max-w-72 lg:max-w-96'>
-        {text}
-      </h3>
+    <div>
+      <p className='text-base text-gris font-light text-start lg:text-left max-w-72 lg:max-w-72'>
+      {text}</p>
+    </div>
     )
 }
 

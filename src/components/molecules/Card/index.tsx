@@ -1,15 +1,13 @@
 import React from 'react'
-import {Icon} from '@iconify/react'
+import Icon from "@/components/atoms/Icon";
 import { SubText,SubTitle } from '@/components/atoms/Titles'
 
-const Index = () => {
+const Index = ({title='',text='',icon='material-symbols:online-prediction',}:{title: string; text: string; icon: string;}) => {
   return (
-    <div>
-        <div className='gradient rounded-full w-20 h-20 flex justify-center items-center'>
-            <Icon icon="material-symbols:add-card-outline" width="40" height="40" className='text-white'/>      
-        </div>
-        <SubTitle/>
-        <SubText text='lorem'/>
+    <div className='flex flex-col items-start justify-center w-full gap-6'>
+        <Icon icon={icon}/>  
+        <SubTitle title={title}/>
+        <SubText text={text}/>
     </div>
   )
 }

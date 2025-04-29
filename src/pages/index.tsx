@@ -1,10 +1,22 @@
-import {HeroTitle, MidiumTitle, SubTitle, TextTitle, SubText} from "@/components/atoms/Titles";
+
 import Hero from "@/components/organisms/Hero";
-import Icon from "@/components/atoms/Icon";
+import Feactures from "@/components/organisms/Feactures";
+import BlogCard from "@/components/molecules/BlogCard";
 
 export default function Home() {
-  return <div className=' flex flex-col items-center w-full min-h-screen'>
+  return(
+  <section>
+   <div className=' flex flex-col items-center w-full'>
     <Hero />
-    <Icon icon="material-symbols:add-card-outline" />
-  </div>
+    <Feactures />
+    <div className='flex flex-col items-center w-full'>
+      <BlogCard />
+    </div>
+    
+   </div>
+
+
+   
+ </section>
+  )
 }
