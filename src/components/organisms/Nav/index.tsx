@@ -2,7 +2,7 @@ import React from 'react'
 import NavTitle from '@/components/atoms/NavTitle/Index';
 import Buttom from '@/components/atoms/Buttom/Index';
 
-const index = () => {
+const Index = () => {
   return (
     <nav className='flex flex-row justify-around items-center w-full h-20 bg-white shadow-md'>
         <div>
@@ -20,4 +20,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
