@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from "@/components/atoms/Image/Index";
-import { SubText, SubTitle } from '@/components/atoms/Titles';  
+import {SubTitle } from '@/components/atoms/Titles';  
 
 
 const Index = () => {
   return (
     <div>
-        <div className='flex flex-col items-center justify-center w-[255px] h-[400px] bg-white shadow-lg'>]'>
+        <div className='flex flex-col items-center justify-center w-[255px] h-[400px] bg-white shadow-lg'>
            <div className='h-1/2'>
                 <Image src="/Blog1.png" alt="hero" /> 
            </div>

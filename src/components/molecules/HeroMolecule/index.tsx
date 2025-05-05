@@ -1,6 +1,6 @@
 import React from 'react'
 import {HeroTitle, SubText} from "@/components/atoms/Titles";
-import Button from "@/components/atoms/Button/Index";
+import Button from "@/components/atoms/Button";
 
 const Index = () => {
   return (

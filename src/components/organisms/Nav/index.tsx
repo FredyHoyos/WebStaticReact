@@ -1,6 +1,6 @@
 import React from 'react'
 import NavTitle from '@/components/atoms/NavTitle/Index';
-import Button from '@/components/atoms/Button/Index';
+import Button from '@/components/atoms/Button';
 
 const Index = () => {
   return (
