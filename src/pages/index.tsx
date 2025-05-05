@@ -9,7 +9,7 @@ export default function Home() {
   <section>
    <div className=' flex flex-col items-center w-full'>
     <Hero />
-    <Button className="bg-blue-500 hover:bg-blue-600">Hecho por fredy</Button>
+    <Button className="bg-blue-500 hover:bg-blue-600">Hecho por Fredy Hoyos CARDENAS</Button>
     <Feactures />
     <div className='flex flex-col items-center w-full'>
       <BlogCard />
