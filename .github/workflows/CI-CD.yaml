@@ -16,7 +16,7 @@ jobs:
     if: github.ref == 'refs/heads/main' // Solo ejecutar en la rama principal
     steps:
       - name: Installe Node.js 22.x // Instalar Node.js
-        uses: actions/setup-node@v2 // Usar la acción de configuración de Node.js
+        uses: actions/setup-node@v3 // Usar la acción de configuración de Node.js
         with:
           node-version: 22.x // Especificar la versión de Node.js
 
@@ -31,9 +31,9 @@ jobs:
     runs-on: ubuntu-latest // Usar un contenedor de Ubuntu para ejecutar el flujo de trabajo
     if: github.ref == 'refs/heads/main' // Solo ejecutar en la rama principal
     steps:
-      - uses: actions/checkout@v2 // Usar la acción de verificación para obtener el código fuente
+      - uses: actions/checkout@v3 // Usar la acción de verificación para obtener el código fuente
       - name: Instalar Node.js 22.x // Instalar Node.js
-        uses: actions/setup-node@v2 // Usar la acción de configuración de Node.js
+        uses: actions/setup-node@v3 // Usar la acción de configuración de Node.js
         with:
           node-version: 22.x // Especificar la versión de Node.js
       - name: Install vercel CLI // Instalar la CLI de Vercel
