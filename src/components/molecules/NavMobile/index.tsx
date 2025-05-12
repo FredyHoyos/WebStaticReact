@@ -25,7 +25,7 @@ const Index = () => {
             </button>
             </div>
             {isOpen && (        
-                <div className='bg-white shadow-md min-w-5/6 p-5 absolute inset-x-10 top-20 rounded-md'>
+                <div className=' bg-white shadow-md min-w-5/6 p-5 absolute inset-x-10 top-20 rounded-md'>
                     <NavTitle title='Home' link='/'/>
                     <NavTitle title='About' link='/'/>
                     <NavTitle title='Contact' link='/'/>

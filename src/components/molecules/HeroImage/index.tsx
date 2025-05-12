@@ -2,15 +2,18 @@ import React from 'react'
 
 const Index = () => {
   return (
-    <div className='relative w-1/2 lg:w-max'>
+    <div className='relative lg:w-max w-[100%]'>
         <div className='absolute -z-12 -top-20 right-0'>
             <img src='/Hero1.png' alt='hero1'/>
         </div>
-        <div className='absolute -z-13'>
+        <div className='absolute -z-13 -top-20 right-0'>
             <img src='/Hero2.png' alt='hero2'/>
         </div>
-        <div className='flex flex-col w-1/2 lg:w-max'>
-            <img src='/Hero3.png' alt='hero3'/>
+        <div className='relative -z-9 flex flex-col items-center h-max-200 lg:w-max'>
+            <picture>
+              <source srcSet="/Hero3.png" media="(min-width: 1024px)" />
+              <img src="/Hero3-1.png" alt="hero3" className='-mt-15' />
+            </picture>
         </div>
     </div>
   )

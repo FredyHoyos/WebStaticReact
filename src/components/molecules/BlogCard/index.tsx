@@ -11,9 +11,9 @@ const Index = () => {
                 <Image src="/Blog1.png" alt="hero" /> 
            </div>
            <div className='flex flex-col items-start justify-center h-1/2 w-full p-2 my-2'>
-            <h5 className='text-[10px] text-gris font-extralight'>By Claire Robinson</h5>
-            <SubTitle title="Receive money in any currency with no fees"/>
-            <p className='text-[13px] text-gris font-light h-[72px] text-ellipsis overflow-hidden'>The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single</p>
+              <h5 className='text-[10px] text-gris font-extralight'>By Claire Robinson</h5>
+              <SubTitle title="Receive money in any currency with no fees"/>
+              <p className='text-[13px] text-gris font-light h-[72px] text-ellipsis overflow-hidden'>The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single The world is getting smaller and we’re becoming more mobile. So why should you be forced to only receive money in a single</p>
            </div>
 
         </div>

@@ -25,7 +25,7 @@ const feacture = [
 ]
 const Index = () => {
   return (
-    <div className='flex flex-row items-center justify-around grap-5'>
+    <div className='flex flex-col lg:flex-row items-center justify-around grap-5'>
         {feacture.map((feacture) => (
             <Card 
             key={feacture.title}
